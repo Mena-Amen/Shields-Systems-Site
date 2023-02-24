@@ -1,0 +1,115 @@
+@charset "windows-1256";
+/* CSS Document */
+
+html { background-color:#00698b}
+
+#wrapper { width:960px; margin:0 auto}
+#upper_contents { background-color:#011a33}
+
+#header { width:960px; height:180px; background:url(../Shields%20Systems%20Site%20Images/header-bg.png) no-repeat top;}
+
+#logo {width:433px;height:121px;padding:30px 0 0 24px;float: left;}
+#logo img { width:433px; height:121px;}
+
+#News { width:328px; height:145px; float:right; margin:12px 41px 0 0;}
+#News h1 { color:#99cffe ; font-size:20px; font-family:Tahoma, Geneva, sans-serif;}
+#News p {color:#99cffe;font-size: 16px;font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding-top: 10px;}
+#News a {color:#FFF;font-size:16px;font-family:Tahoma, Geneva, sans-serif;float: right;padding-top: 20px; text-decoration:none}
+ 
+
+#Menu {margin-top:60px;}
+#Menu ul {width: 760px;height:32px;background:url(../Shields%20Systems%20Site%20Images/Menu-bg.png) repeat-x;}
+#Menu ul li {float:left;width: 154px;height:30px;text-align: center;line-height: 30px;background: url(../Shields%20Systems%20Site%20Images/menu-hover-8.png) no-repeat;}
+#Menu ul li a{color:#FFF;text-decoration:none;font-size: 15px;font-family:Tahoma, Geneva, sans-serif;}
+
+#Menu ul li:hover { background:url(../Shields%20Systems%20Site%20Images/menu-hover-5.png) no-repeat}
+#Menu ul li:first-child{background:url(../Shields%20Systems%20Site%20Images/menu-hover-5.png) no-repeat;width: 144px;}
+
+#Menu li ul { display:none}
+#Menu li:hover ul { display: block ; z-index:9999; position:absolute; width:145px }
+
+#Menu li li { background: url(../Shields%20Systems%20Site%20Images/Menu-hover-8.png) no-repeat #011a33; width:145px;  }
+#Menu li li:hover { background: url(../Shields%20Systems%20Site%20Images/menu-hover-5.png) no-repeat #001e3e;145px }
+
+
+#Menu li ul li a { }
+
+#Slider { width:960px; background-color:#001121}
+#Slider img { padding:10px 0 0 18px ; height:280px ;width:924px} 
+
+#blocks { width:924px; height:182px ; background-color:#001121 ;padding:6px 18px 6px 18px; }
+.block { width:284px; height:178px; padding-top:10px; float:left; margin-right:34px}
+.block:last-child { margin-right:0}
+.block h1 { font-family: Tahoma, Geneva, sans-serif; font-size:20px; color:#FFF}
+.block p { font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#9bc7e4; text-align:justify; margin-top:10px; margin-bottom:20px ; line-height:16px}
+.block a { font-family:Tahoma, Geneva, sans-serif ; font-size:15px; color:#FFF; text-decoration:none;}
+
+
+#Contents { width:924px ; padding:6px 18px 6px 18px ; background-color:#011a33; margin-top:-1px}
+
+#Left_contents { width:607px}
+
+#Latest_projects { height:423px}
+#Latest_projects h1 { color:#97d1fe; font-size:20px; font-family:Tahoma, Geneva, sans-serif;} 
+.projects{ width:284px; height:118px; float:left; margin-right:34px}
+.projects:nth-child(odd) { margin-right:0}
+.projects h3 { color:#9bc7e4; font-size:12px; font-family:Tahoma, Geneva, sans-serif; padding-top:25px}
+.projects h2 { color:#FFF; font-size:15px; font-family:Tahoma, Geneva, sans-serif; padding-top:6px}
+.projects p { color:#9bc7e4 ; font-size:12px; font-family:Tahoma, Geneva, sans-serif; padding-top:8px; text-align:justify}
+
+
+#sidebar { width:284px; height 856px; float:right}
+#Partners { float:right; width:280px ;height:422px}
+#Partners h1 { color:#97d1fe; font-size:20px; font-family:Tahoma, Geneva, sans-serif; }
+.Partners h2 {color:#FFF;font-size:15px;font-family:Tahoma, Geneva, sans-serif;text-align:center;padding: 0 0 0 40px;}
+.Partners img {width:70px;height:23px;padding-top:25px;margin-bottom: -20px;}
+.Partners p {color:#9bc7e4;font-size:12px;font-family:Tahoma, Geneva, sans-serif;padding-top: 25px;text-align:justify;} 
+.Partners a { color:#FFF; text-decoration:none; font-size:15px; font-family:Tahoma, Geneva, sans-serif ; float:right }
+
+.flash {width:607px;height:480px; }
+.flash h1 {color:#9bc7e4;font-size:16px;font-family:Tahoma, Geneva, sans-serif;text-align: center;padding-bottom: 20px;}
+ 
+#Send_message { width:284px; height:452px; margin: -10px 0 0 0;}
+
+#Send-message-contents input{
+    margin: -27px 0 0 102px;
+    border-radius: 14px;
+    padding: 10px 10px ;
+    border: none;
+    margin-bottom: -15px
+}
+.l-section textarea{
+    height: 140px;
+    width: 265px;
+    text-align: center;
+    padding: 10px 0 0;
+    margin: 15px 0 0 10px;
+}
+.l-section button{
+    border-radius: 14px;
+    border: none;
+    background-color: #f1f0ff;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px 0 0 150px;
+}
+
+#Send message-contents img { width:284px; height:452px; }
+#Send-message-contents h1 { color:#9bd8ff ; font-size:18px; font-family:Tahoma, Geneva, sans-serif; text-align:center}
+#Send-message-contents h2 {color:#9bd8ff;font-size:15px;font-family:Tahoma, Geneva, sans-serif;padding-top: 26px;margin: 0 0 0 10px;}
+#Send-message-contents h3 {color:#9bd8ff;font-size:15px;font-family:Tahoma, Geneva, sans-serif;margin: 0 0 0 10px;padding-top: 26px;}
+#Send-message-contents h4 {color:#9bd8ff;font-size:15px;font-family:Tahoma, Geneva, sans-serif;margin: 0 0 0 10px;padding-top: 26px;}
+#Send-message-contents h5 {color:#9bd8ff;font-size:15px;font-family:Tahoma, Geneva, sans-serif;margin: 0 0 0 10px;padding-top: 26px;}
+#Send-message-contents h6 {color:#011a33;font-size:15px;font-family:Tahoma, Geneva, sans-serif;text-align: center;margin-top: 30px;}}
+
+#footer { width:980px; height:90px; clear:both; color:#032a49}
+
+#Footer {width: 940px;height: 80px;clear:both;background-color: #032a49;padding: 10px;margin-top: -1px;}
+#Footer h1 {color:#91bbe1;font-size:13px;font-family:Tahoma, Geneva, sans-serif;margin-left:18px;padding: 10px 0 0px 0;} 
+#Footer h2 { color:#91bbe1 ; font-size:13px; font-family:Tahoma, Geneva, sans-serif; float:right;margin: -17px 18px 0 0;} 
+#Footer h3 { color:#91bbe1 ; font-size:13px; font-family:Tahoma, Geneva, sans-serif; margin-left:18px; padding-top:10px} 
+#Footer a { color:#91bbe1 ; font-size:13px; font-family:Tahoma, Geneva, sans-serif; margin-left:18px; text-decoration:none }
+#Footer a:hover { color:#FFF}
+#Footer hr { height:2px; background-color:#00698b; border:0}
+
+.clear { width:100% ; height:1px; clear:both}
